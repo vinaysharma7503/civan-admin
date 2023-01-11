@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+nav a.active{
+  color: rgb(31, 126, 161);
+  background-color: rgb(204, 225, 251,0.57);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 210px;
+  font-weight: 500;
+}
