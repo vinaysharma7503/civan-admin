@@ -8,10 +8,10 @@ export default defineConfig({
   plugins: [react(),tsconfigPaths()],
   resolve:{
     alias:[
-      { find: '@RootService', replacement: path.resolve(__dirname, './src/RootService') },
+      {find:'@RootService', replacement: path.resolve(__dirname, './src/RootService')},
       {find:'@Shared',replacement:path.resolve(__dirname,'./src/Shared')},
       {find:'@Pages',replacement:path.resolve(__dirname,'./src/Pages')},
-      { find: '@Redux', replacement: path.resolve(__dirname + '/src/Redux') },
+      {find:'@Redux', replacement: path.resolve(__dirname + '/src/Redux') },
     ]
   },
   server:{

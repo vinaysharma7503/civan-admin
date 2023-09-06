@@ -13,7 +13,7 @@ const Sidebar = (props: Props) => {
         <div>
             <nav className="mt-5">
                 <div>
-                    <NavLink className="w-full font-thin text-gray-500 md:flex items-center p-2 my-2" to='/'>
+                    <NavLink className="w-full font-thin text-gray-500 md:flex items-center p-2 my-2" to='/dashboard'>
                         <span className='mx-4 text-sm font-normal'>Dashboard</span>
                     </NavLink>
                     <NavLink className="w-full font-thin text-gray-500 md:flex items-center p-2 my-2" to='/users'>
